@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+  <div class="page">
+    <!--HEADER -----------------------------------> 
+    <header class="header">
+      <div class="wrapper">
+        <div class="header__inner">
+          <div class="logo">
+            <a class="logo__link">
+              <img class="logo__link-img" src="./images/artwork.svg" loading="lazy">
+            </a>
+          </div>
+          <div class="navbar">
+            <div class="navbar__cancel">
+              <img class="navbar__cancel-btn" src="./images/cancel-menu.svg" alt="" loading="lazy">
+            </div>
+            <nav class="navbar__inner">
+              <ul class="navbar__list">
+                <li class="navbar__list-item">
+                  <a class="navbar__list-link" href="#">Our Plan</a>
+                </li>
+                <li class="navbar__list-item">
+                  <a class="navbar__list-link" href="#">Employers</a>
+                </li>
+                <li class="navbar__list-item">
+                  <a class="navbar__list-link" href="#">Brokers</a>
+                </li>
+                <li class="navbar__list-item">
+                  <a class="navbar__list-link" href="#">Members</a>
+                </li>
+                <li class="navbar__list-item">
+                  <a class="navbar__list-link" href="#">About</a>
+                </li>
+                <li class="navbar__list-item">
+                  <a class="navbar__list-link" href="#">Blog</a>
+                </li>
+              </ul>  
+            </nav>
+          </div>
+          
+          <div class="demo">
+            <div class="demo__responsive">
+              <img class="demo__button" src="./images/menu.svg" alt="" loading="lazy">
+            </div>
+            <a class="demo__btn" href="#">Request a demo</a>
+            <a  class="demo__language" href="#">EN</a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!--/HEADER ------------------------------------>
+
+     <!--MAIN_PAGE-----------------------------------> 
+     <main class="main">
+      <section class="offer">
+          <img class="offer__image" src="./images/offer-img.jpg" loading="lazy">
+          <div class="container">
+            <div class="left__inner">
+              <h1 class="left__inner-title _title-text">Give your team peace of mind with supplemental health insurance from Brella.</h1>
+              <p class="left__inner-suptitle">I'm wondering...</p>
+              <div class="left__inner-textarea">
+                <form>
+                  <input class="left__inner-input" type="text" name="" placeholder="how Brella's plan works">
+                  <button class="left__inner-btn"type="submit">Find out</button>
+                </form>
+              </div>
+            </div>
+            <div class="features">
+              <div class="features__item">
+                <img class="feature__item-img" src="./images/umbrella.svg" loading="lazy">
+                <div class="features__item-info">
+                  <h5 class="features__item-title">More coverage</h5>
+                  <p class="features__item-text">Brella covers 13,000+ injuries and illnesses from concussions to cancer.</p>
+                </div>
+              </div>
+              <div class="features__item">
+                <img class="feature__item-img" src="./images/tick.svg" loading="lazy">
+                <div class="features__item-info">
+                  <h5 class="features__item-title">Less hassle</h5>
+                  <p class="features__item-text">One easy-to-manage plan with paperless install and online admin tools.</p>
+                </div>
+              </div>
+              <div class="features__item">
+                <img class="feature__item-img" src="./images/money.svg" loading="lazy">
+                <div class="features__item-info">
+                  <h5 class="features__item-title">Faster benefits</h5>
+                  <p class="features__item-text">Brella pays claims in hours–not weeks so your people can rest easy.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+      </section>
+      <!--/MAIN_PAGE-----------------------------------> 
+  
+      <!--ABOUT -----------------------------------> 
+      <section class="about">
+        <div class="container">
+          <div class="about__inner">
+            <div class="about__content">
+              <p class="about__content-suptitle _subtitle-text">Why Brella?</p>
+              <h1 class="about__content-title _title-text">Today, any health insurance deductible can feel like a high deductible.</h1>
+              <p class="about__content-text _main-text">Brella's supplemental health plan enhances your health benefit strategy to ensure that health hardships don't become financial burdens.</p>
+              <a href="#" class="about__content-link">See our plan</a>
+            </div>
+            <div class="about__image">
+              <img class="about__image-img" src="./images/info.jpg" loading="lazy">
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--/ABOUT-----------------------------------> 
+  
+      <!--TABS -----------------------------------> 
+      <section class="tabs">
+        <div class="container">
+          <div class="tabs__inner">
+            <div class="tabs__left">
+                <p class="tabs__left-subtile _subtitle-text">brella brings</p>
+                <a class="tabs__left-link" onclick="showTab(0)">Customizable benefits</a>
+                <a class="tabs__left-link" onclick="showTab(1)">Paperless install & admin</a>
+                <a class="tabs__left-link" onclick="showTab(2)">Effortless enrollment</a>
+                <a class="tabs__left-link" onclick="showTab(3)">Easy claims experience</a>
+                <a class="tabs__left-link" onclick="showTab(4)">Fast benefit payouts</a>
+                <a class="tabs__left-link" onclick="showTab(5)">Concierge support</a>
+            </div>
+            <div class="tabs__right">
+              <div class="tabs__right-item">
+                <p class="tabs__right-text">Every Brella plan comes with a benefit for Moderate, Severe, and Catastrophic conditions. Employees can select the payout amounts that fit their needs and their budget.</p>
+                <p class="tabs__right-text">Employers can fund part or all of the premiums—or offer Brella as a voluntary benefit.</p>
+              </div>
+  
+              <div class="tabs__right-item">
+                <p class="tabs__right-text">Every Brella plan comes with a benefit for Moderate, Severe, and Catastrophic conditions. Employees can select the payout amounts that fit their needs and their budget.</p>
+                <p class="tabs__right-text">Employers can fund part or all of the premiums—or offer Brella as a voluntary benefit. The choice is up to you.</p>
+              </div>
+  
+              <div class="tabs__right-item">
+                <p class="tabs__right-text">Every Brella plan comes with a benefit for Moderate, Severe, and Catastrophic conditions. Employees can select the payout amounts that fit their needs and their budget.</p>
+                <p class="tabs__right-text">Employers can fund part or all of the premiums—or offer Brella as a voluntary benefit. The choice is up to you.</p>
+              </div>
+  
+              <div class="tabs__right-item">
+                <p class="tabs__right-text">Every Brella plan comes with a benefit for Moderate, Severe, and Catastrophic conditions. Employees can select the payout amounts that fit their needs and their budget.</p>
+                <p class="tabs__right-text">Employers can fund part or all of the premiums—or offer Brella as a voluntary benefit. The choice is up to you.</p>
+              </div>
+  
+              <div class="tabs__right-item">
+                <p class="tabs__right-text">Every Brella plan comes with a benefit for Moderate, Severe, and Catastrophic conditions. Employees can select the payout amounts that fit their needs and their budget.</p>
+                <p class="tabs__right-text">Employers can fund part or all of the premiums—or offer Brella as a voluntary benefit. The choice is up to you.</p>
+              </div>
+  
+              <div class="tabs__right-item">
+                <p class="tabs__right-text">Every Brella plan comes with a benefit for Moderate, Severe, and Catastrophic conditions. Employees can select the payout amounts that fit their needs and their budget.</p>
+                <p class="tabs__right-text">Employers can fund part or all of the premiums—or offer Brella as a voluntary benefit. The choice is up to you.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab__wrapper">
+          <div class="tab__left"></div>
+          <div class="tab__right"></div>
+        </div>
+      </section>
+      <!--/TABS -----------------------------------> 
+  
+      <!--STATISTICS -----------------------------------> 
+      <section class="statistics">
+        <div class="container">
+          <div class="statistics__suptitle">
+            <div class="content">
+              <p class="content__suptitle _subtitle-text">one plan, more coverage</p>
+              <h1 class="content__title _title-text">No one can predict which health issues might come their way.</h1>
+              <p class="content__text _main-text">Our broad supplemental coverage gets rid of the guesswork and puts cash in your team’s pockets for most conditions that require urgent medical attention.</p>
+            </div>
+            <div class="statistics__image">
+              <img clsass="statistics__image-img" src="./images/statistics.jpg" alt="" loading="lazy">
+            </div>
+          </div>
+          <div class="statistics__main">
+            <div class="statistics__main-item">
+              <h1 class="statistics__main-title">5K</h1>
+              <p class="statistics__main-text">covered injuries and illnesses from fractures and appendicitis to cancer</p>
+            </div>
+            <div class="statistics__main-item">
+              <h1 class="statistics__main-title">1X</h1>
+              <p class="statistics__main-text">more covered conditions than Accident and Critical Illness plans—combined</p>
+            </div>
+            <div class="statistics__main-item">
+              <h1 class="statistics__main-title">40%</h1>
+              <p class="statistics__main-text">plans are 100% guaranteed issue. No medical underwriting required</p>
+            </div>
+            <div class="statistics__main-item">
+              <h1 class="statistics__main-title">0</h1>
+              <p class="statistics__main-text">Zero limitations or exclusions for pre-existing conditions</p>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+      <section class="experience">
+        <div class="container">
+          <div class="experience__inner">
+            <div class="experience__image">
+              <img class="experience__image-img" src="./images/phone.jpg" alt="" loading="lazy">
+            </div>
+            <div class="experience__content">
+              <p class="experience__content-suptitle _subtitle-text">a better claims experience</p>
+              <h1 class="experience__content-title _title-text">Give your people a plan that pays in hours—not weeks.</h1>
+              <p class="experience__content-text _main-text">Your team can’t wait for peace of mind. Brella pays on diagnosis, so members can file a claim sooner and get paid faster via our Member Portal or mobile app.</p>
+              <a href="https://media.geeksforgeeks.org/wp-content/uploads/20200513195558/Placement100-_-GeeksforGeeks-1.mp4" class="experience__content-link">Play Video</a>
+            </div>  
+          </div>
+        </div>
+      </section>
+  
+
+      <!--EMPLOYERS-----------------------------------> 
+      <section class="employers" style="background-image: url('./images/employer.jpg');">
+         <div class="container">
+            <div class="employers__inner">
+              <p class="employers__inner-suptitle _subtitle-text">for employers</p>
+              <h1 class="employers__inner-title _title-text">Easy enrollment meets simple administration.</h1>
+              <p class="employers__inner-text _main-text">Brella brings 100% paperless implementation, enrollment, and admin. Plug into our platforms or we’ll plug into yours.</p>
+              <a href="#" class="employers__inner-link">Learn more</a>
+            </div>
+         </div>
+      </section>
+  
+      <!--COMPANIES-----------------------------------> 
+      <section class="companies">
+        <div class="container">
+          <div class="companies__inner">
+            <div class="companies__title">
+              <h1 class="companies__title-text _tc">Proudly backed by</h1>
+            </div>
+            <button class="companies__slaider-leftbtn"></button>
+  
+            <div class="companies__slaider">
+              <div class="companies__slaider-item">
+                <img class="companies__slaider-img" src="./images/company-1.jpg" alt="" loading="lazy">
+              </div>
+              <div class="companies__slaider-item">
+                <img class="companies__slaider-img" src="./images/company-2.jpg" alt="" loading="lazy">
+              </div>
+              <div class="companies__slaiderr-item">
+                <img class="companies__slaider-img" src="./images/company-3.jpg" alt="" loading="lazy">
+              </div>
+              <div class="companies__slaider-item">
+                <img class="companies__slaider-img" src="./images/company-4.jpg" alt="" loading="lazy">
+              </div>
+              <div class="companies__slaider-item">
+                <img class="companies__slaider-img" src="./images/company-5.jpg" alt="" loading="lazy">
+              </div>
+              <div class="companies__slaider-item">
+                <img class="companies__slaider-img" src="./images/company-2.jpg" alt="" loading="lazy">
+              </div>
+              <div class="companies__slaider-item">
+                <img class="companies__slaider-img" src="./images/company-2.jpg" alt="" loading="lazy">
+              </div>
+            </div>
+  
+            <button class="companies__slaider-rightbtn"></button>
+          </div>
+        </div>
+      </section>
+  
+      <!--BLOG-----------------------------------> 
+      <section class="blog">
+        <div class="container">
+          <div class="blog__inner">
+            <div class="blog__inner-item"> 
+              <div class="blog__inner-img">
+                <img class="blog__inner-image" src="./images/blog-img-1.jpg" alt="" loading="lazy">
+              </div>
+              <p class="blog__inner-title">Podcast | Anna</p>
+              <h1 class="blog__inner-text">Better Voluntary Benefits with NFP Voluntary Benefits Practice Leader, Kim Heald</h1>
+            </div>
+            <div class="blog__inner-item"> 
+              <div class="blog__inner-img">
+                <img class="blog__inner-image" src="./images/blog-img-2.jpg" alt="" loading="lazy">
+              </div>
+              <p class="blog__inner-title">Insurance Innovation | Lie</p>
+              <h1 class="blog__inner-text">How to Design Simpler Insurance Benefits</h1>
+            </div>
+            <div class="blog__inner-item"> 
+              <div class="blog__inner-img">
+                <img class="blog__inner-image" src="./images/blog-img-3.jpg" alt="" loading="lazy">
+              </div>
+              <p class="blog__inner-title">Benefits Strategy | Mark</p>
+              <h1 class="blog__inner-text ">Executive Benefits Outlook with Dan Aceti</h1>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+  
+
+      <!--TALK-----------------------------------> 
+      <section class="talk">
+        <div class="container-fluid">
+          <div class="talk__inner">
+            <div class="talk__photo">
+              <div class="talk__box">
+                <img class="talk__photo-img" src="./images/talk-img.jpg" alt="" loading="lazy">
+              </div>
+            </div>
+            <div class="talk__content">
+              <div class="talk__box">
+                <h3 class="talk__content-title _title-text">Ready to explore Brella’s supplemental health solution?</h3>
+                <h3 class="talk__content-suptitle _title-text">Let's talk.</h3>
+                <div class="talk__content-btn">
+                  <a href="#" class="talk__content-button" href="#">Get in touch</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    
+    
+    <!--FOOTER-----------------------------------> 
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+        <div class="footer__top">
+            <div class="footer__content">
+              <div class="footer__content-image">
+                <img class="footer__content-logo" src="./images/logo-2.svg" alt=""  loading="lazy">
+              </div>
+              <div class="menu">
+                <ul class="footer__content-list">
+                  <li class="footer__content-item"><a href="" class="footer__content-link link__main">Join Brella</a></li>
+                  <li class="footer__content-item"><a href="" class="footer__content-link">Our Plan</a></li>
+                  <li class="footer__content-item"><a href="" class="footer__content-link">Employers</a></li>
+                  <li class="footer__content-item"><a href="" class="footer__content-link">Brokers</a></li>
+                  <li class="footer__content-item"><a href="" class="footer__content-link">Members</a></li>
+                </ul>
+              </div>
+              <div class="menu">
+                <ul class="footer__content-list">
+                  <li class="footer__content-item"><a href="" class="footer__content-link link__main">Company</a></li>
+                  <li class="footer__content-item"><a href="" class="footer__content-link">About</a></li>
+                  <li class="footer__content-item"><a href="" class="footer__content-link">Blog</a></li>
+                  <li class="footer__content-item"><a href="" class="footer__content-link">Careers</a></li>
+                  <li class="footer__content-item"><a href="" class="footer__content-link">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="footer__conect">
+              <div class="footer__input">
+                <h3 class="footer__input-suptitle">Get the latest</h3>
+                <p class="footer__input-text">Sign up to receive benefits news and insights in your inbox once a month.</p>
+                <div class="footer__input-form">
+                  <form action="#">
+                    <input type="text" class="footer__input-area" placeholder="Email...">
+                    <button class="footer__input-submit">
+                      <img class="footer__input-img" src="./images/arrow-right.svg" alt=""  loading="lazy">
+                    </button>
+                  </form>
+                </div>
+              </div>
+              <div class="footer__social">
+                <ul class="media">
+                  <li class="media__list">
+                    <a href="" class="media__list-item">
+                      <img class="media__list-img" src="./images/linkedIn.svg" alt="" loading="lazy">
+                    </a>
+                  </li>
+                  <li class="media__list">
+                    <a href="" class="media__list-item">
+                      <img class="media__list-img" src="./images/twitter.svg" alt="" loading="lazy">
+                    </a>
+                  </li>
+                  <li class="media__list">
+                    <a href="" class="media__list-item">
+                      <img class="media__list-img" src="./images/youtube.svg" alt="" loading="lazy">
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer__bottom">
+            <div class="footer__text">
+              <p class="footer__text-main">Brella is a limited benefit policy; it is not a substitute for health insurance. The information provided on this website is illustrative only. A complete description of benefits, limitations, and exclusions are provided in your certificate of Insurance and applicable Riders. For a summary of limitations and exclusions, see our FAQ. Payout values listed do not guarantee an amount to be paid for listed conditions. Product not available in all states. All coverage is subject to the terms and conditions of the master group policy.</p>
+              <p class="footer__text-main">Brella is underwritten by Greenhouse Life Insurance Company (NAIC 80055). Form No. PFSB11-TX</p>
+              <p class="footer__text-main">Reach us by mail at 2093 Philadelphia Pike #2496, Claymont, DE 19703 and by phone at <a href="tel:844-987-1070">(844) 987-1070</a></p>
+            </div>
+            <div class="footer__rights">
+              <div class="footer__rights-text">
+                <p class="footer__rights-main">© 2021 Brella Insurance Inc. All Rights Reserved.</p>
+              </div>
+              <div class="footer__rights-policy">
+                <a class="footer__rights-privacy" href="#">
+                  Privacy 
+                </a>
+                |
+                <a class="footer__rights-privacy" href="#">
+                  Terms of Service
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+
+
+
+  <script src="js/main.min.js"></script>
+  <script src="js/vertical-tab.js"></script>
+  <script src="js/menu.js"></script>
+
+
+
+
+
+  
+  
+  
+</body>
+
+</html>
